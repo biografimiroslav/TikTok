@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a9/TikTok_logo.svg/2560px-TikTok_logo.svg.png" alt="">
+        <button type="button" class="login-btn" data-action="open-modal">
+            Login
+        </button>
+        <button type="button" class="video" data-action="open-modal">
+            Завантажити
+        </button>
+    </header>
+
+    <div class="backdrop js-backdrop">
+        <div class="modal">
+            <button type="submit" class="modal-button" data-action="close-modal">
+                <img class="img-clos" src="./img/close3.png" alt="">
+            </button>
+            <h1 class="tex-modl">Увійти до TikTok</h1>
+            <button class="log-but">Телефон / ел. пошта / ім’я користувача</button>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
